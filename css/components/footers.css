@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    background-size: cover;
+    background: #2C2B2B;
+    color: #8B8B8B;
+    height: 180px;
+    text-align: center;
+}
+
+.social-media {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-media > li {
+    display: inline-block;
+    padding-left: 0 10px;
+    font-size: 28px;
+}
+
+.social-media i {
+    color: #5DDD87;
+    margin: 8px 8px;
+}
